@@ -1,0 +1,32 @@
+.DS_Store
+._*
+
+# Local workspace folders; GitHub publishes archives from app_archives/.
+.claude/
+art_samples/
+config/
+development/
+docs/
+for_human_review_apps/
+
+# Root-level local notes/packages.
+/AGENTS.md
+/APP_DESCRIPTIONS.md
+/*.zip
+/*.txt
+
+# Do not publish nested local git histories as app sources.
+**/.git/
+.local_app_git_backups/
+
+# Local build and IDE output.
+**/build/
+**/DerivedData/
+**/xcuserdata/
+**/*.xcuserstate
+**/*.xcuserdatad/
+
+# Xcode transient files.
+**/*.moved-aside
+**/*.xcscmblueprint
+**/*.xccheckout
