@@ -165,8 +165,8 @@ reduce-motion):
   with data; today outlined.
 - **Body balance**: 4 rows (Neck & Shoulders / Back & Core / Hips & Legs /
   Arms & Wrists) with soft progress bars showing share of stretched minutes,
-  computed from per-session `areaMinutes` — `SessionRecord` gains **optional**
-  `areaMinutes: [String: Int]?` (old records decode as nil and are simply
+  computed from per-session `areaSeconds` — `SessionRecord` gains **optional**
+  `areaSeconds: [String: Int]?` (old records decode as nil and are simply
   excluded from balance; totals/streaks unaffected).
 - Existing tiles/badges stay below.
 
